@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // Replace these with your own Docker Hub credentials and repository details
-        DOCKERHUB_CREDENTIALS = 'dockerhub_credentials_id'
+        DOCKERHUB_CREDENTIALS = 'docker_credentials_id'
         DOCKERHUB_REPO = 'brishavk71/imagefromjenkins'
     }
 
